@@ -1,0 +1,14 @@
+name: DonutStyleScoreboard
+version: 1.0.0
+main: br.com.scoreboard.donut.DonutStyleScoreboard
+api-version: '1.21'
+softdepend: [Vault]
+commands:
+  dsb:
+    description: Configura a scoreboard individual
+    usage: /dsb
+    aliases: [donutboard]
+permissions:
+  dsb.admin:
+    description: Permite configurar a scoreboard
+    default: op

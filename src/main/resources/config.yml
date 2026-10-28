@@ -1,0 +1,33 @@
+# DonutStyleScoreboard - todas as linhas podem ser editadas.
+# ids válidos para /dsb line e /dsb label: kills, deaths, playtime, balance, online
+title: "&6&lSERVER"
+update-interval-ticks: 40
+show-by-default: true
+# Se Vault + um plugin de economia estiverem instalados, balance mostra o saldo.
+# Sem Vault, a linha de saldo fica como "Economia não instalada".
+lines:
+  kills:
+    enabled: true
+    icon: "&c⚔"
+    label: "&fKills"
+    format: "&c⚔ &fKills: &c%value%"
+  deaths:
+    enabled: true
+    icon: "&6☠"
+    label: "&fMortes"
+    format: "&6☠ &fMortes: &6%value%"
+  playtime:
+    enabled: true
+    icon: "&b◷"
+    label: "&fTempo"
+    format: "&b◷ &fTempo: &b%value%"
+  balance:
+    enabled: true
+    icon: "&a$"
+    label: "&fSaldo"
+    format: "&a$ &fSaldo: &a%value%"
+  online:
+    enabled: true
+    icon: "&e✦"
+    label: "&fOnline"
+    format: "&e✦ &fOnline: &e%value%"
